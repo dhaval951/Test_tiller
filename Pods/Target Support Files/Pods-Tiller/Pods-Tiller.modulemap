@@ -1,0 +1,6 @@
+framework module Pods_Tiller {
+  umbrella header "Pods-Tiller-umbrella.h"
+
+  export *
+  module * { export * }
+}

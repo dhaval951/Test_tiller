@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Champagne &amp; Limousines Bold.ttf">
+            <string>Champagne&amp;Limousines-Bold</string>
+        </array>
+        <array key="LEELAWDB.TTF">
+            <string>LeelawadeeBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ActivityTableViewCell" rowHeight="103" id="KGk-i7-Jjw" customClass="ActivityTableViewCell" customModule="menuDemo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="103"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="102.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="WY0-xg-jRh">
+                        <rect key="frame" x="8" y="11" width="80" height="81"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="80" id="ATY-MY-WmP"/>
+                            <constraint firstAttribute="height" constant="80.5" id="pVf-yt-ZS7"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Voted  " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="iam-fB-fdv">
+                        <rect key="frame" x="96" y="44" width="39" height="14"/>
+                        <fontDescription key="fontDescription" name="Champagne&amp;Limousines-Bold" family="Champagne &amp; Limousines" pointSize="13"/>
+                        <color key="textColor" red="0.062745101750000004" green="0.0" blue="0.1921568662" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="muX-yH-E8E">
+                        <rect key="frame" x="135" y="41" width="30" height="21.5"/>
+                        <color key="backgroundColor" red="0.0" green="0.30196078430000001" blue="0.29803921570000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21.5" id="EDA-xz-HQr"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="LeelawadeeBold" family="Leelawadee" pointSize="10"/>
+                        <state key="normal" title="YES">
+                            <color key="titleColor" red="0.8862745098" green="0.90588235289999997" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Iran Accountability Act Of  2016" textAlignment="natural" lineBreakMode="characterWrap" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="yEy-qc-sgH">
+                        <rect key="frame" x="96" y="66" width="216" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.062745101750000004" green="0.0" blue="0.1921568662" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                        <size key="shadowOffset" width="0.0" height="0.0"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KWP-ew-0lw">
+                        <rect key="frame" x="96" y="8" width="216" height="32"/>
+                        <fontDescription key="fontDescription" name="LeelawadeeBold" family="Leelawadee" pointSize="16"/>
+                        <state key="normal" title="Bill Cliton">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="on H.R. 495873" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="x26-sv-alm">
+                        <rect key="frame" x="167" y="39" width="81.5" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="KFF-bz-T5I"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Champagne&amp;Limousines-Bold" family="Champagne &amp; Limousines" pointSize="13"/>
+                        <color key="textColor" red="0.45098039215686275" green="0.45098039215686275" blue="0.45098039215686275" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="iam-fB-fdv" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="44" id="05X-Bv-L04"/>
+                    <constraint firstItem="WY0-xg-jRh" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="20B-by-SfR"/>
+                    <constraint firstItem="muX-yH-E8E" firstAttribute="leading" secondItem="iam-fB-fdv" secondAttribute="trailing" id="462-WQ-SZl"/>
+                    <constraint firstItem="iam-fB-fdv" firstAttribute="leading" secondItem="WY0-xg-jRh" secondAttribute="trailing" constant="8" id="9im-sP-hLO"/>
+                    <constraint firstItem="x26-sv-alm" firstAttribute="leading" secondItem="muX-yH-E8E" secondAttribute="trailing" constant="2" id="EIm-8u-kHR"/>
+                    <constraint firstItem="muX-yH-E8E" firstAttribute="top" secondItem="KWP-ew-0lw" secondAttribute="bottom" constant="1" id="KqQ-o0-e8J"/>
+                    <constraint firstItem="x26-sv-alm" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="39" id="LP5-j9-yMm"/>
+                    <constraint firstItem="KWP-ew-0lw" firstAttribute="leading" secondItem="WY0-xg-jRh" secondAttribute="trailing" constant="8" id="Sqw-OI-oe7"/>
+                    <constraint firstItem="WY0-xg-jRh" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="VzC-eq-IUh"/>
+                    <constraint firstAttribute="trailing" secondItem="yEy-qc-sgH" secondAttribute="trailing" constant="8" id="arX-i6-m1k"/>
+                    <constraint firstItem="yEy-qc-sgH" firstAttribute="leading" secondItem="WY0-xg-jRh" secondAttribute="trailing" constant="8" id="gQ8-U4-COx"/>
+                    <constraint firstAttribute="trailing" secondItem="KWP-ew-0lw" secondAttribute="trailing" constant="8" id="pDq-hf-Kaf"/>
+                    <constraint firstItem="yEy-qc-sgH" firstAttribute="top" secondItem="x26-sv-alm" secondAttribute="bottom" constant="3" id="qo4-HF-Qlm"/>
+                    <constraint firstItem="KWP-ew-0lw" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="z4m-fx-Chz"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="btnName" destination="KWP-ew-0lw" id="Eve-Ap-PSH"/>
+                <outlet property="btnVotedBool" destination="muX-yH-E8E" id="8hg-o6-ndO"/>
+                <outlet property="imgProfile" destination="WY0-xg-jRh" id="GSb-Ud-Kwv"/>
+                <outlet property="lblAct" destination="yEy-qc-sgH" id="cCb-OW-AZb"/>
+                <outlet property="lblVoted" destination="iam-fB-fdv" id="DD8-uj-gvc"/>
+                <outlet property="lblVotedOn" destination="x26-sv-alm" id="pt7-LW-PeO"/>
+            </connections>
+            <point key="canvasLocation" x="25" y="81.5"/>
+        </tableViewCell>
+    </objects>
+</document>

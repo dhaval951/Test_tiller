@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11232" systemVersion="15G31" minimumToolsVersion="Xcode 7.0" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="ChatData" representedClassName=".ChatData" syncable="YES">
+        <attribute name="isRead" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="message" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="receiverId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="receiverimg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="receivername" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="roaster" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="senderId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="senderimg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sendername" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timeStemp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="ChatData" positionX="-63" positionY="-18" width="128" height="210"/>
+    </elements>
+</model>

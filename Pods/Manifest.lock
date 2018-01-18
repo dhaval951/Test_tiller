@@ -1,0 +1,48 @@
+PODS:
+  - Alamofire (4.5.1)
+  - CocoaAsyncSocket (7.6.1)
+  - CocoaLumberjack (3.2.1):
+    - CocoaLumberjack/Default (= 3.2.1)
+    - CocoaLumberjack/Extensions (= 3.2.1)
+  - CocoaLumberjack/Default (3.2.1)
+  - CocoaLumberjack/Extensions (3.2.1):
+    - CocoaLumberjack/Default
+  - KissXML (5.2.0)
+  - libidn (1.33)
+  - ScrollPager (0.9)
+  - SwiftyJSON (3.1.4)
+  - XMPPFramework (3.7.0):
+    - CocoaAsyncSocket (~> 7.6.0)
+    - CocoaLumberjack
+    - KissXML (~> 5.2.0)
+    - libidn (~> 1.33.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - ScrollPager (~> 0.9)
+  - SwiftyJSON
+  - XMPPFramework (from `https://github.com/robbiehanson/XMPPFramework.git`, branch `master`)
+
+EXTERNAL SOURCES:
+  XMPPFramework:
+    :branch: master
+    :git: https://github.com/robbiehanson/XMPPFramework.git
+
+CHECKOUT OPTIONS:
+  XMPPFramework:
+    :commit: 75728a41f312acaddd556fe091817e8a88d2b63d
+    :git: https://github.com/robbiehanson/XMPPFramework.git
+
+SPEC CHECKSUMS:
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  CocoaAsyncSocket: 7eadd3f59e1a6c84e2aefc93e9ff7b55156fe174
+  CocoaLumberjack: 2800c03334042fe80589423c8d80e582dcaec482
+  KissXML: 1c1eeeb6b94e4522cd2f2373e5d0d03c9227738f
+  libidn: 90fc1a62b60288dcf543f13f4ebca913f17d829f
+  ScrollPager: d717fef02a9b04f158696eaac715377fbe3f6acd
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  XMPPFramework: 164ed2ce99e3eb2f358e9f5ca5eeaa8d75339fde
+
+PODFILE CHECKSUM: 342ea09497e5b13fc9ac313bbc7ce816b189cd8e
+
+COCOAPODS: 1.2.1
